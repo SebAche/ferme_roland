@@ -1,0 +1,16 @@
+<?php
+
+//define('BASE_HTTP', 'http://www.subdomain.domain.com/'); // for prod
+define('BASE_HTTP', 'http://localhost/project_name/'); // for dev in local use, with wamp
+
+//gestion du Recaptcha de Google
+$siteKey = 'XXXXXXXXXXXXXXXXXXXXX-YOUR_PUBLIC_KEY-XXXXXXXXXXXXXXXXX'; // votre clé publique
+$secret = 'XXXXXXXXXXXXXXXXXXXXX-YOUR_PRIVATE_KEY-XXXXXXXXXXXXXXXXX'; // votre clé privée
+
+// Emails Formulaire
+$mail = 'dest1@foo.com'; // Déclaration de l'adresse de destination.
+$mailWebmaster = 'dest2@foo.com';
+
+$HEBERGEMENT_SITE = "Web host's adress";
+$AUTEUR_SITE_MENTION_LEGALE = "Firstname Lastname <a target=\"_blank\" href=\"https://fr.linkedin.com/in/YOU\"><i class=\"fa fa-linkedin-square\"></i></a>";
+$AUTEUR_SITE = "Firstname Lastname";

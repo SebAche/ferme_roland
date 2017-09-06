@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'lobster';
+    src: url('../font/lobster_1.4-webfont.eot');
+    src: url('../font/lobster_1.4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lobster_1.4-webfont.woff2') format('woff2'),
+         url('../font/lobster_1.4-webfont.woff') format('woff'),
+         url('../font/lobster_1.4-webfont.ttf') format('truetype'),
+         url('../font/lobster_1.4-webfont.svg#lobster_1.4regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media only screen and (max-device-width : 768px) {
+    body{
+/*        background-color: lightgreen;*/
+/*        background-image:linear-gradient(225deg, lightgreen, black);*/
+        background-image:radial-gradient(lightgreen, black);
+    }
+    img.logo{
+        max-width: 320px;     
+    }
+    div.container h1{
+        text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15);
+    }
+    label{
+        display: none;
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 367px;
+    }
+}
+
+@media only screen and (min-device-width : 769px) {
+    body {
+            background: url('../img/fondsOpti.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+            background-color:beige;
+          }
+    div.container-fluid div.container h1{
+        text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.15);
+    }
+    .form-control::-webkit-input-placeholder { color:white; }
+    .form-control::-moz-placeholder { color:white; } /* firefox 19+ */
+    .form-control:-ms-input-placeholder { color:white; } /* ie */
+    .form-control input:-moz-placeholder { color:white; }
+}
+
+div.container h1{
+    font-family: lobster, sans-serif;
+    color: #065d41;
+    }
+
+h4.carousel-caption{
+    font-size: 30px;
+    font-family: lobster, sans-serif;
+    color: white;
+    text-shadow: rgb(6, 93, 65) 1px 1px 0px, rgba(0, 0, 0, 0.14902) 9px 8px 0px;
+}
+h4#myModalLabel.modal-title{
+    font-size: 30px;
+    font-family: lobster, sans-serif;
+    color: rgb(6, 93, 65);
+    text-shadow: rgba(0, 0, 0, 0.14902) 2px 2px 0px;
+}
+      /* Images */
+img {
+        width: 100%;
+      }
+
+.logoTitre{
+    padding-bottom: 15px;
+}
+	  
+.jumbotron{
+	  margin-top:50px;
+	  margin-bottom:30px;
+	  background-color: rgba(255,255,255, 0.8);
+	  }
+.jumbotron h1{
+    color: grey;
+    margin-bottom: 25px;
+}
+footer {
+	  text-align: center;
+	  padding: 15px 0 15px 0;
+	  }
+.jumbotron{
+    margin-top: 70px;
+    padding-top: 40px;
+}
+
+.jumbotron p, p{
+    text-align: left;
+    font-size: 16px;
+}
+#carousel {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.btn-ml{
+    font-size: 10px;
+}
+
+ul.nav.navbar-nav.navbar-right li a img{
+    max-height: 18px;
+    max-width: 28px;
+    margin-right: 15px;
+}
+/*
+.badge{
+    margin-left: 10px;
+}
+*/
+.jourDeLaSemaine {
+    margin-right: 10px;
+}
+.badge-success {
+background-color: #398439;
+}
+
+.badge-warning {
+background-color: #d58512;
+}
+
+.badge-info {
+background-color: #269abc;
+}
+
+.input-group-addon, .form-control{
+    background-color: #f2f2f2;
+}
+
+footer.container.well {
+    background-color: rgba(255,255,255, 0.8);  
+}
+footer.container.well div.center-block a{
+    text-decoration: none;
+    color: #333;
+}

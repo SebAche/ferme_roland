@@ -1,0 +1,16 @@
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'URL :
+RewriteEngine on
+
+#----------------------------------
+# pour 1&1
+#----------------------------------
+RewriteBase /
+
+
+RewriteRule ^$   index.php [L] #assets/php/redirectionLangue.php [L]
+
+
+RewriteRule ^(.+)/$   index.php?lang=$1 [L]
